@@ -1,22 +1,42 @@
 # 🚀 Churn Analytics Pro
 
-Dashboard de análise de churn com Machine Learning desenvolvido em Python + Streamlit.
+Dashboard interativo para análise e previsão de churn (cancelamento de clientes) utilizando Python e Machine Learning.
 
-## 📊 Funcionalidades
-- Upload de planilha Excel
-- Cálculo de risco de clientes
-- Previsão de churn com Random Forest
-- Dashboard interativo
-- Exportação de relatório em Excel
+## 📊 Sobre o projeto
 
-## 🛠️ Tecnologias
-- Python
-- Streamlit
-- Pandas
-- Plotly
-- Scikit-learn
+Este projeto foi desenvolvido com o objetivo de analisar dados de clientes, identificar padrões de comportamento e prever quais clientes possuem maior risco de cancelamento.
 
-## ▶️ Como rodar
+Além disso, o sistema gera insights e recomendações estratégicas para retenção de clientes.
+
+## ⚙️ Funcionalidades
+
+* Upload de planilhas Excel
+* Cálculo de score de risco baseado em regras de negócio
+* Previsão de churn com Machine Learning (Random Forest)
+* Segmentação de clientes (Campeões, Em Risco, Promotores, etc.)
+* Dashboard interativo (estilo Power BI)
+* Exportação de relatório completo em Excel
+
+## 🛠️ Tecnologias utilizadas
+
+* Python
+* Streamlit
+* Pandas
+* NumPy
+* Plotly
+* Scikit-learn
+
+## ▶️ Como executar o projeto
+
 ```bash
 pip install -r requirements.txt
-streamlit run seu_arquivo.py
+streamlit run app.py
+```
+
+## 💡 Diferencial
+
+Este projeto integra análise de dados, Machine Learning, visualização e geração de relatórios em uma única aplicação.
+
+## 👨‍💻 Autor
+
+Eduardo Leite
